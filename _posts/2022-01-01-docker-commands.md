@@ -9,7 +9,7 @@ categories: docker
 
 ---
 
-- **docker run <image>**
+- **docker run < image >**
 
 docker run command is used to run a container from an image. This command will run image if it is already exists. If the image is not present on the host it will go out to docker hub and pull that image down.
 
