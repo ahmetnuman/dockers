@@ -54,9 +54,9 @@ root@2532dfc67b33:/# FLASK_APP=app.py flask run --host=0.0.0.0
 
 we can dockerize this simple app according to these commands
 
-`mkdir my-simple-webapp`
-`cd my-simple-webapp`
-`copy app.py codes in this directory`
+- `mkdir my-simple-webapp`
+- `cd my-simple-webapp`
+- `copy app.py codes in this directory`
 
 **Dockerfile**
 
@@ -69,10 +69,10 @@ COPY app.py /opt/app.py
 ENTRYPOINT FLASK_APP=/opt/app.py flask run --host=0.0.0.0
 ```
 
-`sudo docker build . `
-`sudo docker build . -t my-simple-web-app`
-`sudo docker images`
-`sudo docker run -d -p 5000:5000 my-simple-webapp`
+- `sudo docker build . `
+- `sudo docker build . -t my-simple-web-app`
+- `sudo docker images`
+- `sudo docker run -d -p 5000:5000 my-simple-webapp`
 
 
 **we can access web from out of the host now**
@@ -81,6 +81,6 @@ ENTRYPOINT FLASK_APP=/opt/app.py flask run --host=0.0.0.0
 
 **Pushing image to the docker hub**
 
-`sudo docker build -t 717717/mysimple-webapp`
-`sudo docker login`
-`sudo docker push 717717/my-simple-webapp`
+- `sudo docker build -t 717717/mysimple-webapp`
+- `sudo docker login`
+- `sudo docker push 717717/my-simple-webapp`
