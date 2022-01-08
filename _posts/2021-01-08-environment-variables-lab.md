@@ -37,7 +37,7 @@ categories: docker
 
 ![Image](/img/envlab6.png)
 
-`sudo docker run -d -e APP_COLOR=blue --name=blue-app -p 38282:8080 kodekloud/simple-webapp`
+`sudo docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name=mysql-db mysql`
 
 ![Image](/img/envlab7.png)
 
