@@ -120,7 +120,7 @@ ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run --host=0.0.0.0
 
 **run docker image wit environment variables**
 
-`sudo docker run -d -e APP_COLOR=blue  -p 5000:5000 simple-webapp-color`
-`sudo docker run -d -e APP_COLOR=green -p 5001:5000 simple-webapp-color`
-`sudo docker run -d -e APP_COLOR=pink  -p 5002:5000 simple-webapp-color`
+- `sudo docker run -d -e APP_COLOR=blue  -p 5000:5000 simple-webapp-color`
+- `sudo docker run -d -e APP_COLOR=green -p 5001:5000 simple-webapp-color`
+- `sudo docker run -d -e APP_COLOR=pink  -p 5002:5000 simple-webapp-color`
 
