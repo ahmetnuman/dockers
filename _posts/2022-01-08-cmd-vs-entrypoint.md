@@ -7,9 +7,9 @@ categories: docker
 
 **if we run simple ubuntu container on the docker, it will start ubuntu container then exit from it immediately.**
 
-`sudo docker run ubuntu`
-`sudo docker ps`
-`sudo docker ps -a`
+- `sudo docker run ubuntu`
+- `sudo docker ps`
+- `sudo docker ps -a`
 
 ![Image](/img/entry1.png)
 
